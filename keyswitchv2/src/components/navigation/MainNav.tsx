@@ -34,7 +34,7 @@ export const MainNav = () => {
               <DropdownToggle caret nav>
                 My Account
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu end>
                 <DropdownItem>View Account</DropdownItem>
                 <DropdownItem>Settings</DropdownItem>
                 <DropdownItem divider />
