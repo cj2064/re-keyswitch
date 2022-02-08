@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../ui/Card";
+import classes from './KeyboardItem.module.css'
 
 type KeyboardTypes = {
     id: string;
@@ -10,28 +11,20 @@ type KeyboardTypes = {
 }
 
 const KeyboardItem = (props: KeyboardTypes) => {
-    // const keyboards = [
-    //     {
-    //         id: '1',
-    //         name: 'Ducky One 2 Mini',
-    //         image: 'https://m.media-amazon.com/images/I/41fLZrn9oNL._AC_SS450_.jpg',
-    //         description: "The famous keyboard by Ducky."
-    //     }
-    // ]
 
   return (
-    <div>
+    <div className={classes.kbcard}>
         <Card>
             <div>
-                <img src={props.image} alt={props.name}/>
+                <img src={props.image} alt={props.name} className={classes.kbimage}/>
             </div>
-            <div>
+            <div className={classes.kbdetails}>
                 <h2>{props.name}</h2>
                 <p>{props.description}</p>
                 <p>${props.price}</p>
             </div>
             <div>
-                <button>Add to Cart</button>
+                <button className={classes.kbbutton}>Add to Cart</button>
             </div>
         </Card>
     </div>
