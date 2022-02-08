@@ -35,10 +35,10 @@ export const MainNav = () => {
                 My Account
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
+                <DropdownItem>View Account</DropdownItem>
+                <DropdownItem>Settings</DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
+                <DropdownItem>Log Out</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
