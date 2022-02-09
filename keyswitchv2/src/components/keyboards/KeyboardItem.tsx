@@ -22,8 +22,8 @@ type KeyboardTypes = {
 
 const KeyboardItem = (props: KeyboardTypes) => {
   return (
-    <div className={classes.kbcard}>
-      <Card>
+    
+      <Card className={classes.kbcard}>
         <CardBody>
           <CardImg
             src={props.image}
@@ -40,7 +40,7 @@ const KeyboardItem = (props: KeyboardTypes) => {
           <Button className={classes.kbbutton}>Add to Cart</Button>
         </CardBody>
       </Card>
-    </div>
+    
   );
 };
 

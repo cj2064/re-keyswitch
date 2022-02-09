@@ -1,5 +1,7 @@
 import React from "react";
+import { CardGroup } from "reactstrap";
 import KeyboardItem from "./KeyboardItem";
+import classes from "./KeyboardList.module.css";
 
 // type KeyboardListProps = {
 //   keyboardsData: {
@@ -28,10 +30,18 @@ const KeyboardList = () => {
       description: "For the competitive and casual gamer.",
       price: 99.99,
     },
+    {
+      id: "3",
+      name: "Das Keyboard 4 Ultimate",
+      image:
+        "https://www.daskeyboard.com/images/das-keyboard-4-ultimate/daskeyboard-4-ultimate-front-view.jpg",
+      description: "The true touch-typist's keyboard.",
+      price: 169.99,
+    },
   ];
 
   return (
-    <div>
+    <div className={classes.kbcards}>
       {keyboardsData.map((keyboard) => (
         <KeyboardItem
           key={keyboard.id}

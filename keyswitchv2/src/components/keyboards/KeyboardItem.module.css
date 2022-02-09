@@ -4,7 +4,7 @@
 }
 
 .kbcard {
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     flex-direction: row;
     width: 350px;
     padding: 1px;
