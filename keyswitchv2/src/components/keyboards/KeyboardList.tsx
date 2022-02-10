@@ -38,6 +38,13 @@ const KeyboardList = () => {
       description: "The true touch-typist's keyboard.",
       price: 169.99,
     },
+    {
+      id: '4',
+      name: "Drop Alt",
+      image: "https://massdrop-s3.imgix.net/product-images/massdrop-alt-high-profile-mechanical-keyboard/FP/uf6r63xrTbOsMPCPuRQR_PC.png?auto=format&fm=jpg&fit=crop&w=600&h=315&dpr=1&bg=f0f0f0",
+      description: "A high-end mechanical keyboard from Drop.",
+      price: 179.99,
+    }
   ];
 
   return (
